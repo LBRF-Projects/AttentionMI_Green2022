@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=ChangeDetection
+Path=/home/dalpt/Documents/ATTNMISTUDY/launchers/
+Exec=bash -i /home/dalpt/Documents/ATTNMISTUDY/launchers/run_ChangeDetection.sh

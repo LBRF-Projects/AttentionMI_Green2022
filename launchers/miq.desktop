@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=MIQ
+Path=/home/dalpt/Documents/ATTNMISTUDY/launchers/
+Exec=bash -i /home/dalpt/Documents/ATTNMISTUDY/launchers/run_task.sh MIQ 24
