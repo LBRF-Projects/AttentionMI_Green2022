@@ -3,5 +3,5 @@
 Type=Application
 Terminal=true
 Name=TraceLab
-Path=/home/dalpt/Documents/ATTNMISTUDY/launchers/
-Exec=bash -i /home/dalpt/Documents/ATTNMISTUDY/launchers/run_task.sh TraceLab 24
+Path=/media/experiments/launchers/
+Exec=bash -i /media/experiments/launchers/run_task.sh TraceLab 24

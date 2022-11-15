@@ -3,5 +3,5 @@
 Type=Application
 Terminal=true
 Name=ChangeDetection
-Path=/home/dalpt/Documents/ATTNMISTUDY/launchers/
-Exec=bash -i /home/dalpt/Documents/ATTNMISTUDY/launchers/run_ChangeDetection.sh
+Path=/media/experiments/launchers/
+Exec=bash -i /media/experiments/launchers/run_task.sh ChangeDetection 24
