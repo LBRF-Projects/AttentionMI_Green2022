@@ -3,5 +3,5 @@
 Type=Application
 Terminal=true
 Name=HLJT
-Path=/media/experiments/launchers/
-Exec=bash -i /media/experiments/launchers/run_task.sh HLJT 24
+Path=/media/experiments/AttentionMI_Green2022/launchers/
+Exec=bash -i /media/experiments/AttentionMI_Green2022/launchers/run_task.sh HLJT 24
