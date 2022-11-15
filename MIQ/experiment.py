@@ -62,7 +62,7 @@ class MIQ(klibs.Experiment):
         flush()
         any_key()
 
-        msg_demo1 = message("Welcome to the Motor Imagrey Questionaire!", blit_txt=False)
+        msg_demo1 = message("Welcome to the Motor Imagery Questionaire!", blit_txt=False)
         fill()
         blit(msg_demo1, 5, P.screen_c)
         flip()
