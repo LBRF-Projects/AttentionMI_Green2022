@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+klibs = {git = "https://github.com/a-hurst/klibs.git", ref = "2a68763b76959dea04cea8260ffc020318fc6dcc"}
+
+[requires]
+python_version = "3.10"
+
+[scripts]
