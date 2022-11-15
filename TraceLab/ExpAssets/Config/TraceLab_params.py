@@ -43,7 +43,7 @@ experiment_complete_message = (
 # Experiment Structure
 #########################################
 multi_session_project = True
-trials_per_block = 20
+trials_per_block = 18
 conditions = []
 default_condition = None
 table_defaults = {}
