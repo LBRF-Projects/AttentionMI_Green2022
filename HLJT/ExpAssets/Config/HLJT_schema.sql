@@ -57,5 +57,6 @@ CREATE TABLE trials (
     angle integer not null,
     rotation integer not null,
     judgement text not null,
-    rt text not null
+    rt text not null,
+    accuracy text not null
 );
