@@ -46,26 +46,6 @@
 			"active": true
 		},
 		{
-			"index": 2,
-			"title": "sex",
-			"database_field": "sex",
-			"query": "What is your sex?\nAnswer with: (m)ale or (f)emale",
-			"accepted": ["m", "f"],
-			"allow_null": false,
-			"format": {
-				"type": "str",
-                "styles": "default",
-                "positions": "default",
-				"password": false,
-				"range": null,
-				"case_sensitive": false,
-				"accept_as_true": null,
-				"action": null
-			},
-			"anonymous_value": "EVAL: 'm' if now() % 2 > 0  else 'f'",
-			"active": true
-		},
-		{
 			"index": 3,
 			"title": "handedness",
 			"database_field": "handedness",
@@ -83,26 +63,6 @@
 				"action": null
 			},
 			"anonymous_value": "a",
-			"active": true
-		},
-		{
-			"index": 4,
-			"title": "age",
-			"database_field": "age",
-			"query": "What is your age?",
-			"accepted": null,
-			"allow_null": false,
-			"format": {
-				"type": "int",
-                "styles": "default",
-                "positions": "default",
-				"password": false,
-				"range": [0, 125],
-				"case_sensitive": null,
-				"accept_as_true": null,
-				"action": null
-			},
-			"anonymous_value": 1,
 			"active": true
 		}
 	],
