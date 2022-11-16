@@ -119,7 +119,11 @@ class MIQ(klibs.Experiment):
     
         response = feel_likert.collect()
 
-        
+       
+        fill()
+        flip()
+        flush()
+        any_key()
 
         begin= message ("The task will now start!", style="title", blit_txt=False, align='center')
         fill()
