@@ -61,8 +61,8 @@ class HLJT(klibs.Experiment):
 		# Initialize the response collector
 		self.key_listener = KeyPressResponse()
 		self.key_listener.key_map = {
-			'p': "right",
-			'q': "left",
+			'p': "R",
+			'q': "L",
 		}
 
 		# Initialize runtime variables
@@ -156,6 +156,9 @@ class HLJT(klibs.Experiment):
 			msg1 = message("Practice complete!", blit_txt=False)
 			msg2 = message("Press any key to begin the experiment.", blit_txt=False)
 			wait_msg(msg1, msg2)
+			self.trials_since_break = 0
+			self.done_practice= False
+
 
 		elif P.practicing:
 			msg1 = message(
@@ -218,7 +221,8 @@ class HLJT(klibs.Experiment):
 			"angle": self.angle,
 			"rotation": self.rotation,
 			"judgement": response.value,
-			"rt": response.rt
+			"rt": response.rt,
+			"accuracy": response.value == self.hand,
 		}
 
 
