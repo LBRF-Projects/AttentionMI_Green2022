@@ -103,7 +103,7 @@ class MIQ(klibs.Experiment):
 
         mental_task= message ("Mental Task:", style="title", blit_txt=False, align='center')
 
-        mental_taski= message ("Next you will be asked to perform the movement again using motor imagery.\n The statement will insidcate whether you will form as clear and vivid\n  a visual image as possible of the movement just performed,\n or attempt to feel yourself making the movement.\n You will again use the spacebar to indicate when you have began and finished the movement.", blit_txt=False, align='center')
+        mental_taski= message ("Next you will be asked to perform the movement again using motor imagery.\n The statement will indicate whether you will form as clear and vivid\n  a visual image as possible of the movement just performed,\n or attempt to feel yourself making the movement.\n You will again use the spacebar to indicate when you have began and finished the movement.", blit_txt=False, align='center')
 
         flush()
         fill() 
@@ -112,7 +112,7 @@ class MIQ(klibs.Experiment):
         flip()
         any_key()
 
-        demo_msg = message("Lastly you will rate the ease/difficulty with which you were able\n to do the mental task on a Kinesthetic or visual scale.", blit_txt=False)
+        demo_msg = message("Lastly you will rate the ease/difficulty with which you were able\n to do the mental task on a Kinesthetic or visual scale.", blit_txt=False, align='center')
         feel_likert= LikertProbe(
                         1, 7, demo_msg, int(P.screen_x * 0.6), (P.screen_c[0], int(P.screen_y * 0.3))
                     )
@@ -171,7 +171,7 @@ class MIQ(klibs.Experiment):
             "q2": [
                 "While sitting, put your hand on your lap and make a fist.",
                 ("Raise until hand above your head until your arm is fully extended,\n" 
-                 "keeping your fingers in a fist.\n Next,"
+                 "keeping your fingers in a fist.\n Next, "
                  "lower your hand back to your lap while maintaining a fist. "),
             ],
             "q3": [ 
