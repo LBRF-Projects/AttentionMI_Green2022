@@ -33,12 +33,12 @@
 			"accepted": null,
 			"allow_null": false,
 			"format": {
-				"type": "int",
+				"type": "str",
                 "styles": "default",
                 "positions": "default",
 				"password": false,
 				"range": null,
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"accept_as_true": null,
 				"action": null
 			},
