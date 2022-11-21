@@ -36,6 +36,7 @@ class MIQ(klibs.Experiment):
          # Initialize text styles
         self.txtm.add_style('normal', '0.7deg')
         self.txtm.add_style('title', '1.5deg')
+        self.txtm.add_style("timer", "1deg", color=(255, 0, 0))
 #Need this here not sure why (HLJT format didn't work)    
         # self.instructions()
 
@@ -155,7 +156,7 @@ class MIQ(klibs.Experiment):
 
         mental_task= message ("Mental Task:", style="title", blit_txt=False, align='center')
 
-        timer_msg= message("Press spacebar to start and stop timer", blit_txt=False, align='center')
+        timer_msg= message("Press spacebar to start and stop timer", style="timer", blit_txt=False, align='center')
 
         mental_feel= message ("Assume the starting position.\n Attempt to FEEL yourself making the movement just\n" 
                                " performed without actually doing it.", blit_txt=False, align='center')
