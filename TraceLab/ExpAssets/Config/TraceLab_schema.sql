@@ -43,7 +43,7 @@ to be an integer.
 
 CREATE TABLE participants (
 	id                 INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-	user_id            INTEGER                           NOT NULL UNIQUE,
+	user_id            TEXT                           NOT NULL UNIQUE,
 	handedness         TEXT                              NOT NULL,
 	session_structure  TEXT,
 	session_count      INTEGER,
