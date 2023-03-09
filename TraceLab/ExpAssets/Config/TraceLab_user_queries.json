@@ -95,7 +95,7 @@
 			"accepted": null,
 			"allow_null": true,
 			"format": {
-				"type": "int",
+				"type": "str",
                 "styles": "default",
                 "positions": "default",
 				"password": false,
